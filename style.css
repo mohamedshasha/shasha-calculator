@@ -1,0 +1,64 @@
+#calculator {
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    width: fit-content;
+    padding: 20px;
+    align-items: center;
+    border-radius: 10px;
+    margin: 10px;
+  }
+  /* ضبط حجم الآلة الحاسبة لتناسب أي شاشة */
+.calculator {
+  width: 90vw;  /* 90% من عرض الشاشة */
+  max-width: 400px;  /* الحد الأقصى للعرض */
+  margin: auto;  /* توسيط التصميم */
+  background-color: blue;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/* جعل الأزرار تتكيف مع الشاشة */
+button {
+  width: 20vw;  /* عرض الزر يكون 20% من عرض الشاشة */
+  max-width: 80px;  /* الحد الأقصى لحجم الزر */
+  height: 10vh;  /* ارتفاع الزر يكون 10% من ارتفاع الشاشة */
+  max-height: 60px;  /* الحد الأقصى للارتفاع */
+  font-size: 1.5rem;  /* تكبير الخط */
+}
+
+  #display_area {
+    background-color: aliceblue;
+    height: 70px;
+    width: 100%;
+    overflow-x: scroll;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+  }
+  .calculator_raw {
+    margin:5px auto;
+
+  }
+  .calculator_raw button {
+width: 60px;
+height: 60px;
+font-size: 20px;
+border: none;
+border-radius: 10px;
+margin: 5px;
+background-color: aqua;
+color: black;
+
+  }
+  .calculator_raw button:hover{
+    background-color: aquamarine;
+    cursor: pointer;
+  }
+
+   
+
+}
